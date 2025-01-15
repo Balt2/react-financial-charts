@@ -9,7 +9,7 @@ import {
     getAxisCanvas,
     GenericChartComponent,
     plotDataLengthBarWidth,
-} from "@react-financial-charts/core";
+} from "@react-19-financial-charts/core";
 
 export interface StackedBarSeriesProps {
     readonly baseAt?:

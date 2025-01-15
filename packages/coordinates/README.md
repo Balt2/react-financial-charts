@@ -1,5 +1,5 @@
 # Coordinates
 
 ```bash
-npm i @react-financial-charts/coordinates
+npm i @react-19-financial-charts/coordinates
 ```

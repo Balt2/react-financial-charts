@@ -682,8 +682,8 @@ export class EventCapture extends React.Component<EventCaptureProps, EventCaptur
             : !useCrossHairStyleCursor
             ? undefined
             : this.state.panInProgress
-            ? "react-financial-charts-grabbing-cursor"
-            : "react-financial-charts-crosshair-cursor";
+            ? "react-19-financial-charts-grabbing-cursor"
+            : "react-19-financial-charts-crosshair-cursor";
 
         const interactionProps = disableInteraction
             ? undefined

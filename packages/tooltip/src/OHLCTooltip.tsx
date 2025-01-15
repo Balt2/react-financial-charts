@@ -1,4 +1,4 @@
-import { functor, GenericChartComponent, last } from "@react-financial-charts/core";
+import { functor, GenericChartComponent, last } from "@react-19-financial-charts/core";
 import { format } from "d3-format";
 import * as React from "react";
 import { ToolTipText } from "./ToolTipText";
@@ -40,7 +40,7 @@ export class OHLCTooltip extends React.Component<OHLCTooltipProps> {
     public static defaultProps = {
         accessor: (d: unknown) => d,
         changeFormat: format("+.2f"),
-        className: "react-financial-charts-tooltip-hover",
+        className: "react-19-financial-charts-tooltip-hover",
         displayTexts: displayTextsDefault,
         displayValuesFor: (_: any, props: any) => props.currentItem,
         fontFamily: "-apple-system, system-ui, 'Helvetica Neue', Ubuntu, sans-serif",

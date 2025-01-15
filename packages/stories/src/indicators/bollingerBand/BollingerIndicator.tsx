@@ -12,7 +12,7 @@ import {
     YAxis,
     withDeviceRatio,
     withSize,
-} from "react-financial-charts";
+} from "react-19-financial-charts";
 import { IOHLCData, withOHLCData } from "../../data";
 
 interface ChartProps extends Pick<BollingerSeriesProps, "fillStyle"> {

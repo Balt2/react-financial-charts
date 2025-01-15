@@ -4,9 +4,9 @@
 
 > **Note:** v1 is a fully breaking change with large parts, if not all, rewritten. Do not expect the same API! although the same features should exist.
 
-![ci](https://github.com/react-financial/react-financial-charts/workflows/ci/badge.svg)
-[![codecov](https://codecov.io/gh/reactivemarkets/react-financial-charts/branch/master/graph/badge.svg)](https://codecov.io/gh/reactivemarkets/react-financial-charts)
- [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/react-financial/react-financial-charts/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-financial-charts.svg?style=flat)](https://www.npmjs.com/package/react-financial-charts)
+![ci](https://github.com/react-financial/react-19-financial-charts/workflows/ci/badge.svg)
+[![codecov](https://codecov.io/gh/reactivemarkets/react-19-financial-charts/branch/master/graph/badge.svg)](https://codecov.io/gh/reactivemarkets/react-19-financial-charts)
+ [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/react-financial/react-19-financial-charts/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-19-financial-charts.svg?style=flat)](https://www.npmjs.com/package/react-19-financial-charts)
 
 Charts dedicated to finance.
 
@@ -56,12 +56,12 @@ The aim with this project is create financial charts that work out of the box.
 ## Installation
 
 ```sh
-npm install react-financial-charts
+npm install react-19-financial-charts
 ```
 
 ## Documentation
 
-[Stories](https://react-financial.github.io/react-financial-charts/)
+[Stories](https://react-financial.github.io/react-19-financial-charts/)
 
 ## Contributing
 
@@ -72,8 +72,8 @@ This project is a mono-repo that uses [Lerna](https://lerna.js.org/) to manage d
 To get started run:
 
 ```bash
-git clone https://github.com/react-financial/react-financial-charts.git
-cd react-financial-charts
+git clone https://github.com/react-financial/react-19-financial-charts.git
+cd react-19-financial-charts
 npm ci
 npm run build
 ```
@@ -105,4 +105,4 @@ npm start
 
 ## LICENSE
 
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B13613%2Fgit%40github.com%3Areactivemarkets%2Freact-financial-charts.git.svg?type=large)](https://app.fossa.com/projects/custom%2B13613%2Fgit%40github.com%3Areactivemarkets%2Freact-financial-charts.git?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B13613%2Fgit%40github.com%3Areactivemarkets%2Freact-19-financial-charts.git.svg?type=large)](https://app.fossa.com/projects/custom%2B13613%2Fgit%40github.com%3Areactivemarkets%2Freact-19-financial-charts.git?ref=badge_large)

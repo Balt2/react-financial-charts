@@ -10,7 +10,7 @@ import {
     TOUCHEND,
     TOUCHMOVE,
     touchPosition,
-} from "@react-financial-charts/core";
+} from "@react-19-financial-charts/core";
 import { mean } from "d3-array";
 import { ScaleContinuousNumeric } from "d3-scale";
 import { select, pointer } from "d3-selection";
@@ -64,11 +64,11 @@ export class AxisZoomCapture extends React.Component<AxisZoomCaptureProps, AxisZ
         const { bg, className, zoomCursorClassName } = this.props;
 
         const cursor =
-            this.state.startPosition !== null ? zoomCursorClassName : "react-financial-charts-default-cursor";
+            this.state.startPosition !== null ? zoomCursorClassName : "react-19-financial-charts-default-cursor";
 
         return (
             <rect
-                className={`react-financial-charts-enable-interaction ${cursor} ${className}`}
+                className={`react-19-financial-charts-enable-interaction ${cursor} ${className}`}
                 ref={this.ref}
                 x={bg.x}
                 y={bg.y}
