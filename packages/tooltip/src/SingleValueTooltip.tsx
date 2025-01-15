@@ -1,4 +1,4 @@
-import { functor, identity, GenericChartComponent, noop, last } from "@react-financial-charts/core";
+import { functor, identity, GenericChartComponent, noop, last } from "@react-19-financial-charts/core";
 import { format } from "d3-format";
 import * as React from "react";
 import { ToolTipText } from "./ToolTipText";
@@ -27,7 +27,7 @@ export interface SingleValueTooltipProps {
 
 export class SingleValueTooltip extends React.Component<SingleValueTooltipProps> {
     public static defaultProps = {
-        className: "react-financial-charts-tooltip",
+        className: "react-19-financial-charts-tooltip",
         displayValuesFor: (_: any, props: any) => props.currentItem,
         labelFill: "#4682B4",
         origin: [0, 0],

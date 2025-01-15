@@ -48,7 +48,7 @@ The aim with this project is create financial charts that work out of the box.
 ## Installation
 
 ```sh
-npm install react-financial-charts
+npm install react-19-financial-charts
 ```
 
 ## LICENSE

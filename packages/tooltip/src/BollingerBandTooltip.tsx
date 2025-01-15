@@ -1,4 +1,4 @@
-import { functor, GenericChartComponent, last } from "@react-financial-charts/core";
+import { functor, GenericChartComponent, last } from "@react-19-financial-charts/core";
 import { format } from "d3-format";
 import * as React from "react";
 import { ToolTipText } from "./ToolTipText";
@@ -28,7 +28,7 @@ export interface BollingerBandTooltipProps {
 
 export class BollingerBandTooltip extends React.Component<BollingerBandTooltipProps> {
     public static defaultProps = {
-        className: "react-financial-charts-tooltip react-financial-charts-bollingerband-tooltip",
+        className: "react-19-financial-charts-tooltip react-19-financial-charts-bollingerband-tooltip",
         displayFormat: format(".2f"),
         displayValuesFor: (_: any, props: any) => props.currentItem,
         displayInit: "n/a",

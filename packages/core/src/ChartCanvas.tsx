@@ -26,43 +26,43 @@ const shouldResetChart = (thisProps: any, nextProps: any) => {
 
 const getCursorStyle = () => {
     const tooltipStyle = `
-	.react-financial-charts-grabbing-cursor {
+	.react-19-financial-charts-grabbing-cursor {
 		pointer-events: all;
 		cursor: -moz-grabbing;
 		cursor: -webkit-grabbing;
 		cursor: grabbing;
 	}
-	.react-financial-charts-crosshair-cursor {
+	.react-19-financial-charts-crosshair-cursor {
 		pointer-events: all;
 		cursor: crosshair;
 	}
-	.react-financial-charts-tooltip-hover {
+	.react-19-financial-charts-tooltip-hover {
 		pointer-events: all;
 		cursor: pointer;
 	}
-	.react-financial-charts-avoid-interaction {
+	.react-19-financial-charts-avoid-interaction {
 		pointer-events: none;
 	}
-	.react-financial-charts-enable-interaction {
+	.react-19-financial-charts-enable-interaction {
 		pointer-events: all;
 	}
-	.react-financial-charts-tooltip {
+	.react-19-financial-charts-tooltip {
 		pointer-events: all;
 		cursor: pointer;
 	}
-	.react-financial-charts-default-cursor {
+	.react-19-financial-charts-default-cursor {
 		cursor: default;
 	}
-	.react-financial-charts-move-cursor {
+	.react-19-financial-charts-move-cursor {
 		cursor: move;
 	}
-	.react-financial-charts-pointer-cursor {
+	.react-19-financial-charts-pointer-cursor {
 		cursor: pointer;
 	}
-	.react-financial-charts-ns-resize-cursor {
+	.react-19-financial-charts-ns-resize-cursor {
 		cursor: ns-resize;
 	}
-	.react-financial-charts-ew-resize-cursor {
+	.react-19-financial-charts-ew-resize-cursor {
 		cursor: ew-resize;
 	}`;
     return <style type="text/css">{tooltipStyle}</style>;
@@ -427,7 +427,7 @@ export class ChartCanvas<TXAxis extends number | Date> extends React.Component<
 > {
     public static defaultProps = {
         clamp: false,
-        className: "react-financial-charts",
+        className: "react-19-financial-charts",
         defaultFocus: true,
         disablePan: false,
         disableInteraction: false,
@@ -1326,7 +1326,7 @@ export class ChartCanvas<TXAxis extends number | Date> extends React.Component<
                                 onPanEnd={this.handlePanEnd}
                             />
 
-                            <g className="react-financial-charts-avoid-interaction">{this.props.children}</g>
+                            <g className="react-19-financial-charts-avoid-interaction">{this.props.children}</g>
                         </g>
                     </svg>
                 </div>

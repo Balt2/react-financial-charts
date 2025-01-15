@@ -1,4 +1,4 @@
-import { functor, GenericChartComponent } from "@react-financial-charts/core";
+import { functor, GenericChartComponent } from "@react-19-financial-charts/core";
 import { format } from "d3-format";
 import * as React from "react";
 import { ToolTipText } from "./ToolTipText";
@@ -32,7 +32,7 @@ export interface StochasticTooltipProps {
 
 export class StochasticTooltip extends React.Component<StochasticTooltipProps> {
     public static defaultProps = {
-        className: "react-financial-charts-tooltip",
+        className: "react-19-financial-charts-tooltip",
         displayFormat: format(".2f"),
         displayInit: "n/a",
         displayValuesFor: (_: any, props: any) => props.currentItem,

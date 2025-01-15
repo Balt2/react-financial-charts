@@ -1,5 +1,5 @@
 # Axes
 
 ```bash
-npm i @react-financial-charts/axes
+npm i @react-19-financial-charts/axes
 ```

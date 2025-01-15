@@ -1,5 +1,5 @@
 import * as React from "react";
-import { GenericChartComponent } from "@react-financial-charts/core";
+import { GenericChartComponent } from "@react-19-financial-charts/core";
 
 export interface AnnotateProps {
     readonly className?: string;
@@ -11,7 +11,7 @@ export interface AnnotateProps {
 export class Annotate extends React.Component<AnnotateProps> {
     public static defaultProps = {
         className:
-            "react-financial-charts-enable-interaction react-financial-charts-annotate react-financial-charts-default-cursor",
+            "react-19-financial-charts-enable-interaction react-19-financial-charts-annotate react-19-financial-charts-default-cursor",
     };
 
     public render() {

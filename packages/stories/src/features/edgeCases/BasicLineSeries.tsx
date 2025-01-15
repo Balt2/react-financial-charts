@@ -8,7 +8,7 @@ import {
     LineSeries,
     withDeviceRatio,
     withSize,
-} from "react-financial-charts";
+} from "react-19-financial-charts";
 import { IOHLCData } from "../../data";
 
 interface ChartProps {
