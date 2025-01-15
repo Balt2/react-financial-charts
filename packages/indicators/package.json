@@ -1,7 +1,7 @@
 {
-    "name": "@react-financial-charts/indicators",
+    "name": "@react-19-financial-charts/indicators",
     "version": "2.0.0",
-    "description": "Indicators for react-financial-charts",
+    "description": "Indicators for react-19-financial-charts",
     "publishConfig": {
         "access": "public"
     },
@@ -26,10 +26,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/reactivemarkets/react-financial-charts.git"
+        "url": "https://github.com/reactivemarkets/react-19-financial-charts.git"
     },
     "bugs": {
-        "url": "https://github.com/reactivemarkets/react-financial-charts/issues"
+        "url": "https://github.com/reactivemarkets/react-19-financial-charts/issues"
     },
     "scripts": {
         "build": "npm run clean && npm run compile",
